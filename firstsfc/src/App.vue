@@ -6,7 +6,7 @@
 export default {
   data() {
     return {
-      message: 'This is some text. This is Mark Harvey, signing out.'
+      message: 'Hello World. This is Mark Harvey, signing out. I lab u all'
     };
   }
 };
