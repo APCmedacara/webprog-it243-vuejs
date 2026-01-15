@@ -4,8 +4,6 @@
       <h1>Harvey</h1>
       <nav>
         <a href="#about">About</a>
-        <a href="#gallery">Gallery</a>
-        <a href="#">Resources</a> 
         <button @click="toggleDarkMode" id="themeBtn">Toggle Dark Mode</button>
       </nav>
     </div>
@@ -40,16 +38,6 @@
             </div>
           </div>
         </div>
-      </div>
-    </section>
-
-    <section id="gallery">
-      <h2>Portfolio</h2>
-      <div class="gallery-grid">
-        <!-- Placeholder for Gallery Images -->
-        <div class="gallery-item">Image 1</div>
-        <div class="gallery-item">Image 2</div>
-        <div class="gallery-item">Image 3</div>
       </div>
     </section>
   </main>
@@ -166,21 +154,6 @@ header nav a:hover { color: #dc143c; }
 .card:hover h3 { text-decoration: underline; }
 .card h3 { margin-bottom: 12px; color: #dc143c; font-size: 1.2rem; }
 
-#gallery { padding: 60px 20px; }
-#gallery h2 { text-align: center; margin-bottom: 40px; color: #dc143c; font-size: 2rem; }
-.gallery-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 25px; }
-.gallery-item { 
-  width: 100%; 
-  height: 360px;
-  background-color: #e0e0e0; 
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: #333;
-  font-size: 1.2rem;
-  border-radius: 12px;
-}
-
 footer { text-align: center; padding: 30px 20px; background: #000; color: #fff; font-size: 0.9rem; }
 
 .dark { background: #121212; color: #f5f5f5; }
@@ -191,5 +164,4 @@ footer { text-align: center; padding: 30px 20px; background: #000; color: #fff; 
 .dark nav a { color: #f5f5f5; }
 .dark nav a:hover { color: #dc143c; }
 .dark header nav button { background: #dc143c; }
-.dark .gallery-item { background-color: #333; }
 </style>
