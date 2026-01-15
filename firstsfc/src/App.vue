@@ -1,15 +1,10 @@
 <template>
-  <h1>{{ message }}</h1>
+  <h1>Food</h1>
+  <food-item/>
+  <food-item/>
+  <food-item/>
 </template>
 
-<script>
-export default {
-  data() {
-    return {
-      message: 'Hello World. This is Mark Harvey, signing out. I lab u all. Ang galing galing'
-    };
-  }
-};
-</script>
+<script></script>
 
 <style></style>
