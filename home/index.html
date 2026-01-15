@@ -2,41 +2,33 @@
 <html>
 <head>
   <title>My first Vue page</title>
-  <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="css/mystyle.css">
+  <link rel="stylesheet" href="css/style.css?version=0.2">">
+  <link rel="stylesheet" href="css/flexbox-grid.css">
   <link rel="stylesheet" href="css/images.css">
-  <title>Personal Profile</title>
+
 </head>
 <body>
 
-  <div class="content">
+<h1>Vue Example</h1>
 
-    <h1>Personal Profile Web Page ni Harvey</h1>
+<div class="container">
+        <header> <h1>Personal Profile Web page </h1>  </header>
+        <main>
+          <section class="main-content">
+            <div>1 About Me</div>
+            <div>2 Education / Achievements</div>
+            <div>3 Course </div>  
+            <div>4 IT Experience</div>
+            <div>5 Hobbies & Interests</div>
+            <div>6 Goals In Life / Dream</div>  
+            <div>7 Picture Gallery</div>
+          </section>
+          <aside class="sidebar">
+            </aside>
+        </main>
+        <footer> Asia Pacific College   </footer>
+</div>
 
-    <h3>About Me</h3>
-    <p>I like to travel, money is the only thing stopping me.</p>
-
-    <h3>Education / Achievement</h3>
-    <p>Finished Senior High School</p>
-    <p>Currently in College</p>
-
-    <h3>Course / Program</h3>
-    <p>Bachelor of Science in Information Technology (BSIT)</p>
-
-    <h3>IT Experience</h3>
-    <p>Learned HTML and GitHub a few minutes ago</p>
-
-    <h3>Hobbies & Interests</h3>
-    <p>Cycling, Hiking, Travelling, Sleeping.</p>
-
-    <h3>Goals In Life / Dream</h3>
-    <p>To be rich</p>
-    <p>To start my own business</p>
-
-    <h3>Picture Gallery</h3>
-    <img src="../images/kokushibo.png" alt="Upper Moon 1">
-
-  </div>
 
 <p>The message is taken from 'data' inside the Vue instance by writing {{ message }} inside the div with id="app".</p>
 
@@ -54,8 +46,5 @@
 
 <script src="js/vue.js"></script>
 <script src="js/images.js"></script>
-  
 </body>
-
 </html>
-
