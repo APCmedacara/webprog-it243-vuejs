@@ -5,21 +5,19 @@
       <nav>
         <a href="#about">About</a>
         <a href="#gallery">Gallery</a>
-        <a href="#">Resources</a> <!-- Placeholder for resources page -->
+        <a href="#">Resources</a> 
         <button @click="toggleDarkMode" id="themeBtn">Toggle Dark Mode</button>
       </nav>
     </div>
   </header>
 
   <main>
-    <!-- Hero / About Section -->
     <section id="about" class="hero-section">
       <div class="hero-container">
         <!-- Profile Image Placeholder (remove or replace when available) -->
         <div class="hero-image">
           <div class="placeholder">Profile Image</div>
         </div>
-        <!-- Intro Text -->
         <div class="hero-text">
           <h2>Hello, I'm <span class="highlight">Harvey</span></h2>
           <p>
@@ -27,7 +25,6 @@
             modern JavaScript frameworks like Vue.js. I focus on building clean,
             intuitive, and visually compelling websites while refining my skills.
           </p>
-          <!-- About Cards -->
           <div class="hero-cards">
             <div class="card">
               <h3>Education</h3>
@@ -46,7 +43,6 @@
       </div>
     </section>
 
-    <!-- Gallery Section -->
     <section id="gallery">
       <h2>Portfolio</h2>
       <div class="gallery-grid">
@@ -80,7 +76,6 @@ export default {
 </script>
 
 <style scoped>
-/* ===== Global ===== */
 * { box-sizing: border-box; margin: 0; padding: 0; }
 body {
   font-family: 'Helvetica', sans-serif;
@@ -92,7 +87,6 @@ body {
 h1,h2,h3 { font-family: 'Montserrat', sans-serif; font-weight: 700; }
 a { text-decoration: none; }
 
-/* ===== Header ===== */
 header {
   background: #000;
   color: #fff;
@@ -119,7 +113,6 @@ header nav {
   gap: 16px;
 }
 
-/* ===== Dark Mode Button ===== */
 header nav button {
   padding: 12px 24px;
   font-size: 1.2rem;
@@ -139,7 +132,6 @@ header nav button:hover {
 header nav a { color: #fff; font-weight: 600; transition: color 0.3s; }
 header nav a:hover { color: #dc143c; }
 
-/* ===== Hero Section ===== */
 .hero-section { width: 100%; background: #f8f8f8; padding: 60px 20px; }
 .hero-container { display: flex; flex-wrap: wrap; max-width: 100%; margin: auto; gap: 40px; align-items: center; justify-content: space-between; }
 .hero-image .placeholder {
@@ -157,7 +149,6 @@ header nav a:hover { color: #dc143c; }
 .hero-text .highlight { color: #dc143c; }
 .hero-text p { font-size: 1.1rem; margin-bottom: 30px; color: #333; }
 
-/* ===== Cards ===== */
 .hero-cards { display: flex; flex-wrap: wrap; gap: 20px; }
 .card {
   background: #fff;
@@ -175,7 +166,6 @@ header nav a:hover { color: #dc143c; }
 .card:hover h3 { text-decoration: underline; }
 .card h3 { margin-bottom: 12px; color: #dc143c; font-size: 1.2rem; }
 
-/* ===== Gallery ===== */
 #gallery { padding: 60px 20px; }
 #gallery h2 { text-align: center; margin-bottom: 40px; color: #dc143c; font-size: 2rem; }
 .gallery-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 25px; }
@@ -191,10 +181,8 @@ header nav a:hover { color: #dc143c; }
   border-radius: 12px;
 }
 
-/* ===== Footer ===== */
 footer { text-align: center; padding: 30px 20px; background: #000; color: #fff; font-size: 0.9rem; }
 
-/* ===== Dark Mode ===== */
 .dark { background: #121212; color: #f5f5f5; }
 .dark .hero-section { background: #1a1a1a; }
 .dark .hero-text p { color: #e0e0e0; }
